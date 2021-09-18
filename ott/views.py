@@ -16,4 +16,6 @@ def registerPage(request):
 def vPage(request):
     return render(request, 'web/vpage.html')
 def seemorePage(request):
-    return render(request, 'web/seemore.html')
+    return render(request, 'web/seemore.html') 
+def watchhistoryPage(request):
+    return render(request, 'web/watchhistory.html')
