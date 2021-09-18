@@ -27,5 +27,6 @@ urlpatterns = [
     path('register/', views.registerPage, name="register"),
     path('vpage/', views.vPage, name="vpage"),
     path('seemore/', views.seemorePage, name="seemore"),
-     path('watchhistory/', views.watchhistoryPage, name="watchhistory"),
+    path('watchhistory/', views.watchhistoryPage, name="watchhistory"),
+    path('liked/', views.likedPage, name="liked"),
 ]
