@@ -19,3 +19,5 @@ def seemorePage(request):
     return render(request, 'web/seemore.html') 
 def watchhistoryPage(request):
     return render(request, 'web/watchhistory.html')
+def likedPage(request):
+    return render(request, 'web/liked.html')
